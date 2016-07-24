@@ -1,0 +1,4 @@
+An openmediavault plugin to allow access to zfs disks/mount points when run inside an LXC container. Tested under Proxmox 4.2.
+
+Requires blkid return check to be commented out in first few lines of OMVFilesystems::enumerate() in system.inc.
+
